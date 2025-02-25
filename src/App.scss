@@ -1,0 +1,19 @@
+// @import "node_modules/bootstrap/scss/functions";
+// @import "node_modules/bootstrap/scss/variables";
+
+$blue: #1C4D8C;
+$gold: #CB8000;
+$yellow: #f7f4dc;
+$red: #912000;
+$brown: #664B1C;
+
+$primary: $blue;
+$secondary: $gold;
+$danger: $red;
+$light: $yellow;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.card {
+  width: 200px;
+}
