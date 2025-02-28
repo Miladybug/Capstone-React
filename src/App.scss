@@ -17,3 +17,31 @@ $light: $yellow;
 .card {
   width: 200px;
 }
+
+.my_backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.my_modal {
+  position: fixed;
+  top: 10vh;
+  left: 5%;
+  width: 90%;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+}
+
+.my_modal_content {
+  max-height: 80vh;
+  overflow-y: auto;
+}
