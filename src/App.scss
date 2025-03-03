@@ -3,7 +3,7 @@
 
 $blue: #1C4D8C;
 $gold: #CB8000;
-$yellow: #f7f4dc;
+$yellow: #fff9cb;
 $red: #912000;
 $brown: #664B1C;
 
@@ -44,4 +44,13 @@ $light: $yellow;
 .my_modal_content {
   max-height: 80vh;
   overflow-y: auto;
+}
+
+nav > a {
+  text-decoration: none;
+  color: $light;
+}
+
+main {
+  margin-top: 4.5rem
 }

@@ -1,46 +1,39 @@
-import { useState } from 'react';
 import './App.scss';
-import GetData from './components/GetData';
-import SearchFilters from './components/SearchFilters';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Nav from "./components/Nav"
+import Home from "./pages/Home"
+import CollectionSearch from './pages/CollectionSearch';
 
-// TO DO
-// More search filters
-// Number of results
-// Number of pages
-// Custom queries
+// TO DO - Beyond MVP
+// Create exhibits AND/OR exhibit-maker
+    // Each period
+    // Queens
+    // Textiles
+    // Mummies
+// Create quizzes & games
+    // Memory Card
+    // Hangman
+    // Cryptograms
+    // Snake
+// Display order / sort by
 
-// Make more reusable
-// Documentation
-// More themes/styles
-// Timeline visualization
-// Quizes & games
-// Map
-// Provenance info
-
-// Exhibit layouts
-// Custom galleries
-// Filter by exhibit? Or at least saved items
-// Other departments
+// TO DO - Details
+// Better UI for search box
+// Standard card size
+// Drop-down period search
 
 function App() {
-  const [searchData, setSearchData] = useState({});
-
-  const handleSearchFilters = (search) => {
-    setSearchData(search);
-  }
-
-  return (
-    <>
-      <h1 className="text-center text-light bg-primary p-3">Egyptian Art</h1>
-      
-      <SearchFilters onSearchSubmit={handleSearchFilters} />
-      <GetData searchData={searchData} />
-      
-      <footer className="bg-primary text-light p-3">
-        &copy; 2025 | Emma Johnson's Senior Capstone Project
-      </footer>
-    </>
-  )
+    return (
+      <BrowserRouter>
+        <Nav />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/collection" element = { <CollectionSearch /> } />
+          </Routes>
+        </main>
+      </BrowserRouter>
+    )
 }
 
 export default App;

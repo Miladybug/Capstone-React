@@ -1,0 +1,110 @@
+[
+    {
+        "name":"Coptic",
+        "dates": "100-700 CE",
+        "results": 5,
+        "subperiods": []
+    },
+    {
+        "name": "Early Dynastic",
+        "dates": "3100-2650 BCE",
+        "results": 423,
+        "subperiods": []
+    },
+    {
+        "name": "First Intermediate",
+        "dates": "2100-2010 BCE",
+        "results": 222,
+        "subperiods": []
+    },
+    {
+        "name": "Islamic", 
+        "dates": "600-1600 CE",
+        "results": 32,
+        "subperiods": []
+    },
+    {
+        "name": "Late Period", 
+        "dates": "664-465 BCE",
+        "results": 3082, 
+        "subperiods": ["Saite"]
+    },
+    {
+        "name": "Meriotic",
+        "dates": "300 BCE-250 CE",
+        "results": 50,
+        "subperiods": []
+    },
+    {
+        "name": "Middle Kingdom",
+        "dates": "2030-1640 BCE",
+        "results": 6039,
+        "subperiods": []
+    },
+    {
+        "name": "Modern", 
+        "dates": "1900 CE-Current",
+        "results": 15,
+        "subperiods": []
+    },
+    {
+        "name": "Napatan",
+        "dates": "750-300 BCE",
+        "results": 28,
+        "subperiods": []
+    },
+    {
+        "name": "Neolithic",
+        "dates": "6900-3900 BCE",
+        "results": 152,
+        "subperiods": ["Buto-Merimda-Maadi"]
+    },
+    {
+        "name": "New Kingdom",
+        "dates": "1550-1070 BCE",
+        "results": 13379,
+        "subperiods": ["Amarna", "Ramesside"]
+    },
+    {
+        "name": "Old Kingdom", 
+        "dates": "2649-2100 BCE",
+        "results": 773, 
+        "subperiods": []
+    },
+    {
+        "name": "Paleolithic",
+        "dates": "300000-6900 BCE",
+        "results": 58, 
+        "subperiods": []
+    },
+    {
+        "name": "Predynastic",
+        "dates": "3300-3100 BCE",
+        "results": 721,
+        "subperiods": ["Badarian", "Naqada"]
+    },
+    {
+        "name": "Ptolemaic",
+        "dates": "380-30 BCE",
+        "results": 1929,
+        "subperiods": ["Byzantine", "Persian"]
+    },
+    {
+        "name": "Roman",
+        "dates": "100 BCE-364 CE",
+        "results": 1231,
+        "subperiods": ["Augustus"]
+    },
+    {
+        "name": "Second Intermediate",
+        "dates": "1640-1550 BCE",
+        "results": 1351,
+        "subperiods": []
+    },
+    {
+        "name": "Third Intermediate",
+        "dates": "1070-664 BCE",
+        "results": 2040, 
+        "subperiods": ["Kushite"]
+    }
+]

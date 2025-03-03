@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Amarna",
+        "mainPeriod": "New Kingdom",
+        "dates": "1353-1336 BCE",
+        "results": 1100
+    },
+    {
+        "name": "Augustus",
+        "mainPeriod": "Roman", 
+        "dates": "27 BCE-14 CE",
+        "results": 3
+    },
+    {
+        "name": "Badarian",
+        "mainPeriod": "Predynastic",
+        "dates": "4400-3800 BCE",
+        "results": 23
+    },
+    {
+        "name": "Buto-Merimda-Maadi",
+        "mainPeriod": "Neolithic",
+        "dates": "4500-4000",
+        "results": 39
+    },
+    {
+        "name": "Byzantine",
+        "mainPeriod": "Ptolemaic",
+        "dates": "4th Century BCE - 6th Century CE",
+        "results": 7
+    },
+    {
+        "name": "Kushite",
+        "mainPeriod": "Third Intermediate",
+        "dates": "1070-664 BCE",
+        "results": 42
+    },
+    {
+        "name": "Naqada",
+        "mainPeriod": "Predynastic",
+        "dates": "3900-2650 BCE",
+        "results": 305
+    },
+    {
+        "name": "Persian", 
+        "mainPeriod": "Ptolemaic",
+        "dates": "525-30 BCE",
+        "results": 38
+    }, 
+    {
+        "name": "Ramesside", 
+        "mainPeriod": "New Kingdom",
+        "dates": "1295-1070",
+        "results": 4007
+    },
+    {
+        "name": "Saite", 
+        "mainPeriod": "Late Period", 
+        "dates": "589-570 BCE",
+        "results": 580
+    }
+]
