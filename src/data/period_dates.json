@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Predynastic",
+        "startDate": -5000,
+        "endDate": -3000
+    },
+    {
+        "name": "Early Dynastic",
+        "startDate": -3000,
+        "endDate": -2686
+    },
+    {
+        "name": "Old Kingdom",
+        "startDate": -2686,
+        "endDate": -2150
+    },
+    {
+        "name": "First Intermediate Period",
+        "startDate": -2150,
+        "endDate": -2030
+    },
+    {
+        "name": "Middle Kingdom",
+        "startDate": -2030,
+        "endDate": -1640
+    },
+    {
+        "name": "Second Intermediate Period",
+        "startDate": -1640,
+        "endDate": -1540
+    },
+    {
+        "name": "New Kingdom",
+        "startDate": -1550,
+        "endDate": -1070
+    },
+    {
+        "name": "Third Intermediate Period",
+        "startDate": -1070,
+        "endDate": -713
+    },
+    {
+        "name": "Late Period",
+        "startDate": -713,
+        "endDate": -332
+    },
+    {
+        "name": "Ptolemaic Period",
+        "startDate": -332,
+        "endDate": -30
+    },
+    {
+        "name": "Roman Period",
+        "startDate": -30,
+        "endDate": 395
+    },
+    {
+        "name": "Post-Roman",
+        "startDate": 395,
+        "endDate": 2025
+    }
+]

@@ -8,7 +8,6 @@ const GetData = (props) => {
 
     useEffect(() => {
         const filteredData = [];
-        console.log(props.searchData.searchText);
         data.map(obj => {
             if (props.searchData.searchText && !obj.title.toLowerCase().includes(props.searchData.searchText.toLowerCase())) {
                 return;

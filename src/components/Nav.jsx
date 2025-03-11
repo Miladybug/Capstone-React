@@ -20,6 +20,15 @@ const Nav = () => {
                     <li className="nav-item px-3 mt-2">
                         <NavLink className="nav-link text-light" to='/collection' end>Collection</NavLink>
                     </li>
+                    <li className="nav-item px-3 mt-2">
+                        <NavLink className="nav-link text-light" to='/galleries' end>Galleries</NavLink>
+                    </li>
+                    <li className="nav-item px-3 mt-2">
+                        <NavLink className="nav-link text-light" to='/exhibits' end>Exhibits</NavLink>
+                    </li>
+                    <li className="nav-item px-3 mt-2">
+                        <NavLink className="nav-link text-light" to='/quizzes' end>Quizzes</NavLink>
+                    </li>
                 </ul>
             </div>
         </nav>
