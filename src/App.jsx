@@ -4,7 +4,7 @@ import Nav from "./components/Nav"
 import Home from "./pages/Home"
 import CollectionSearch from './pages/CollectionSearch';
 import Galleries from './pages/Galleries';
-import Exhibits from "./pages/Exhibits";
+import Timeline from "./pages/Timeline";
 import Quizzes from "./pages/Quizzes";
 
 // TO DO - Beyond MVP
@@ -34,7 +34,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/collection" element={ <CollectionSearch /> } />
             <Route path="/galleries" element={ <Galleries /> } />
-            <Route path="/exhibits" element={ <Exhibits /> } />
+            <Route path="/timeline" element={ <Timeline /> } />
             <Route path="/quizzes" element={ <Quizzes /> } />
           </Routes>
         </main>

@@ -24,7 +24,7 @@ const Nav = () => {
                         <NavLink className="nav-link text-light" to='/galleries' end>Galleries</NavLink>
                     </li>
                     <li className="nav-item px-3 mt-2">
-                        <NavLink className="nav-link text-light" to='/exhibits' end>Exhibits</NavLink>
+                        <NavLink className="nav-link text-light" to='/timeline' end>Timeline</NavLink>
                     </li>
                     <li className="nav-item px-3 mt-2">
                         <NavLink className="nav-link text-light" to='/quizzes' end>Quizzes</NavLink>

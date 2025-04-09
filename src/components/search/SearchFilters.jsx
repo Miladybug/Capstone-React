@@ -9,7 +9,6 @@ const SearchFilters = ({onSearchSubmit}) => {
     const [startYear, setStartYear] = useState(-7000)
     const [endYear, setEndYear] = useState(2025)
     // Medium
-    // Gallery Number
 
     const handleSearchSubmit = (e) => {
         e.preventDefault();
@@ -35,7 +34,7 @@ const SearchFilters = ({onSearchSubmit}) => {
     return (
         <form className="container d-flex flex-column">
             <div className="form-group d-flex flex-row p-3">
-                <label for="searchText">Search: </label>
+                <label htmlFor="searchText">Search: </label>
                 <input type="text" 
                     id="searchText" 
                     value={searchText}
@@ -47,7 +46,7 @@ const SearchFilters = ({onSearchSubmit}) => {
             </div>
             <div className="form-group d-flex flex-row p-2 justify-content-around">
                 <div>
-                    <label for="isHighlight">Highlight: </label>
+                    <label htmlFor="isHighlight">Highlight: </label>
                     <input type="checkbox" 
                         id="isHighlight" 
                         checked={highlight}
@@ -58,7 +57,7 @@ const SearchFilters = ({onSearchSubmit}) => {
                     />
                 </div>
                 <div>
-                    <label for="isPublicDomain">Public Domain: </label>
+                    <label htmlFor="isPublicDomain">Public Domain: </label>
                     <input type="checkbox"
                         id="isPublicDomain"
                         checked={publicDomain}
@@ -69,7 +68,7 @@ const SearchFilters = ({onSearchSubmit}) => {
                     />
                 </div>
                 <div>
-                    <label for="isTimelineWork">Timeline Work: </label>
+                    <label htmlFor="isTimelineWork">Timeline Work: </label>
                     <input type="checkbox"
                         id="isTimelineWork"
                         checked={timelineWork}
@@ -81,19 +80,29 @@ const SearchFilters = ({onSearchSubmit}) => {
                 </div>
             </div>
             <div className="form-group d-flex flex-row p-2">
-                {/* <div class="d-flex flex-row p-2">
-                    <label for="period">Period:</label>
+                <div className="d-flex flex-row p-2">
+                    <label htmlFor="period">Period:</label>
                     <select id="period" name="period"
-                        onChange={setStartYear(startYear)}>
+                        className="form-control border-primary border-2 mx-2"
+                        onChange={e => {
+                            const periodName = e.target.value;
+                            period_dates.map(period => {
+                                if (periodName == period.name) {
+                                    setStartYear(period.startDate);
+                                    setEndYear(period.endDate);
+                                }
+                            }) 
+
+                        }}>
                         {period_dates.map(period => {
                             return (
-                                <option startYear={period.startDate} endYear={period.endDate}>{period.name}</option>
+                                <option key={period.startDate}>{period.name}</option>
                             )
                         })}  
                     </select>
-                </div> */}
-                <div class="d-flex flex-row p-2">
-                    <label for="startYear">Start Year: </label>
+                </div>
+                <div className="d-flex flex-row p-2">
+                    <label htmlFor="startYear">Start Year: </label>
                     <input type="number"
                         id="startYear"
                         name="startYear"
@@ -104,8 +113,8 @@ const SearchFilters = ({onSearchSubmit}) => {
                             setStartYear(e.target.value);
                         }}/>
                 </div>
-                <div class="d-flex flex-row p-2">
-                    <label for="endYear">End Year: </label>
+                <div className="d-flex flex-row p-2">
+                    <label htmlFor="endYear">End Year: </label>
                     <input type="number"
                         id="endYear"
                         name="endYear"
@@ -117,7 +126,7 @@ const SearchFilters = ({onSearchSubmit}) => {
                         }} />
                 </div>
             </div>
-            <div class="form-actions d-flex flex-row p-2">
+            <div className="form-actions d-flex flex-row p-2">
                 <button className="btn btn-primary m-3" onClick={handleSearchSubmit}>Search</button>
                 <button className="btn btn-secondary m-3" onClick={clearFilters}>Clear Search</button>
             </div>
