@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 
 
 const Home = () => {
@@ -14,11 +15,11 @@ const Home = () => {
                 <h2 className="text-primary text-center">Powerful Features</h2>
                 <div className="d-flex flex-wrap justify-content-around p-3">
                     <div className="card m-2 pb-0">
-                        <img className="card-img-top" src="src/assets/no_image.png" alt="" />
+                        <img className="card-img-top" src="src/assets/search_image.png" alt="" />
                         <div className="card-body">
                             <h3 className="card-title">Advanced Search & Filters</h3>
                             <p className="cart-text">Find exactly what you're looking for with our enhanced filtering system</p>
-                            <a href="#" className="feature-link text-danger">Try Advanced Search →</a>
+                            <NavLink to="/collection" className="feature-link text-danger">Try Advanced Search →</NavLink>
                         </div>
                     </div>
                     <div className="card m-2 pb-0 col-sm-12 col-md-6">
@@ -26,23 +27,23 @@ const Home = () => {
                         <div className="card-body">
                             <h3 className="card-title">Gallery Explorer</h3>
                             <p className="cart-text">Plan your museum visit with our gallery-by-gallery navigation</p>
-                            <a href="#" className="feature-link text-danger">Explore Galleries →</a>
+                            <NavLink to="/galleries" className="feature-link text-danger">Explore Galleries →</NavLink>
                         </div>
                     </div>
                     <div className="card m-2 pb-0 col-sm-12 col-md-6">
-                        <img className="card-img-top" src="src/assets/no_image.png" alt="" />
+                        <img className="card-img-top" src="src/assets/timeline_image.png" alt="" />
                         <div className="card-body">
                             <h3 className="card-title">Visual Timeline</h3>
                             <p className="cart-text">Browse artifacts chronologically across Egyptian dynasties</p>
-                            <a href="#" className="feature-link text-danger">View Timeline →</a>
+                            <NavLink to="/timeline" className="feature-link text-danger">View Timeline →</NavLink>
                         </div>
                     </div>
                     <div className="card m-2 pb-0 col-sm-12 col-md-6">
                         <img className="card-img-top" src="src/assets/no_image.png" alt="" />
                         <div className="card-body">
                             <h3 className="card-title">Egyptian Knowledge Games</h3>
-                            <p className="cart-text">Test your knowledge with our upcoming quizzes and minigames</p>
-                            <a href="#" className="feature-link text-danger">Play →</a>
+                            <p className="cart-text">Test your knowledge with our quizzes and minigames</p>
+                            <NavLink to="/games" className="feature-link text-danger">Play →</NavLink>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,401 @@
+[
+    {
+        "question": "Which pharaoh united Upper and Lower Egypt?",
+        "answer": "Narmer",
+        "options": [
+            "Narmer",
+            "Khufu",
+            "Ramses II",
+            "Tutankhamun",
+            "Cleopatra",
+            "Hatshepsut",
+            "Akhenaten",
+            "Thutmose I",
+            "Seti I",
+            "Djoser"
+        ],
+        "description": "Narmer, also known as Menes, is credited with uniting Upper and Lower Egypt around 3100 BC."
+    },
+    {
+        "question": "Which pharaoh built the Great Pyramid?",
+        "answer": "Khufu",
+        "options": [
+            "Narmer",
+            "Khufu",
+            "Ramses II",
+            "Tutankhamun",
+            "Cleopatra",
+            "Hatshepsut",
+            "Akhenaten",
+            "Thutmose I",
+            "Seti I",
+            "Djoser"
+        ],
+        "description": "Khufu, also known as Cheops, was the pharaoh who commissioned the Great Pyramid of Giza, one of the Seven Wonders of the Ancient World."
+    },
+    {
+        "question": "Which pharaoh built the first pyramid?",
+        "answer": "Djoser",
+        "options": [
+            "Narmer",
+            "Khufu",
+            "Ramses II",
+            "Tutankhamun",
+            "Cleopatra",
+            "Hatshepsut",
+            "Akhenaten",
+            "Thutmose I",
+            "Seti I",
+            "Djoser"
+        ],
+        "description": "Djoser, also known as Netjerikhet, was the pharaoh who commissioned the Step Pyramid at Saqqara, the first pyramid in Egypt."
+    },
+    {
+        "question": "Which pharaoh was the last to rule Egypt?",
+        "answer": "Cleopatra",
+        "options": [
+            "Narmer",
+            "Khufu",
+            "Ramses II",
+            "Tutankhamun",
+            "Cleopatra",
+            "Hatshepsut",
+            "Akhenaten",
+            "Thutmose I",
+            "Seti I",
+            "Djoser"
+        ],
+        "description": "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt, known for her relationships with Julius Caesar and Mark Antony."
+    },
+    {
+        "question": "Which pharaoh was monotheistic?",
+        "answer": "Akhenaten",
+        "options": [
+            "Narmer",
+            "Khufu",
+            "Ramses II",
+            "Tutankhamun",
+            "Cleopatra",
+            "Hatshepsut",
+            "Akhenaten",
+            "Thutmose I",
+            "Seti I",
+            "Djoser"
+        ],
+        "description": "Akhenaten, originally named Amenhotep IV, is known for abandoning traditional polytheism and introducing worship centered on the sun disk Aten."
+    },
+    {
+        "question": "Which pharaoh was a woman, but was depicted with a beard?",
+        "answer": "Hatshepsut",
+        "options": [
+            "Narmer",
+            "Khufu",
+            "Ramses II",
+            "Tutankhamun",
+            "Cleopatra",
+            "Hatshepsut",
+            "Akhenaten",
+            "Thutmose I",
+            "Seti I",
+            "Djoser"
+        ],
+        "description": "Hatshepsut description"
+    },
+    {
+        "question": "Which pharaoh was the first to be buried in the Valley of the Kings?",
+        "answer": "Thutmose I",
+        "options": [
+            "Narmer",
+            "Khufu",
+            "Ramses II",
+            "Tutankhamun",
+            "Cleopatra",
+            "Hatshepsut",
+            "Akhenaten",
+            "Thutmose I",
+            "Seti I",
+            "Djoser"
+        ],
+        "description": "Thutmose I was the first pharaoh to be buried in the Valley of the Kings, marking a shift in royal burial practices."
+    },
+    {
+        "question": "Which pharaoh is featured in the movie \"The Mummy\"?",
+        "answer": "Seti I",
+        "options": [
+            "Narmer",
+            "Khufu",
+            "Ramses II",
+            "Tutankhamun",
+            "Cleopatra",
+            "Hatshepsut",
+            "Akhenaten",
+            "Thutmose I",
+            "Seti I",
+            "Djoser"
+        ],
+        "description": "Seti I is depicted in the movie \"The Mummy\" as the pharaoh whose tomb is disturbed by the main characters."
+    },
+    {
+        "question": "Which pharaoh is featured in the movie \"The Prince of Egypt\"?",
+        "answer": "Ramses II",
+        "options": [
+            "Narmer",
+            "Khufu",
+            "Ramses II",
+            "Tutankhamun",
+            "Cleopatra",
+            "Hatshepsut",
+            "Akhenaten",
+            "Thutmose I",
+            "Seti I",
+            "Djoser"
+        ],
+        "description": "Ramses II is depicted in the animated film \"The Prince of Egypt\" as the pharaoh during the time of Moses."
+    },
+    {
+        "question": "Which pharaoh is featured in the poem \"Ozymandias\"?",
+        "answer": "Ramses II",
+        "options": [
+            "Narmer",
+            "Khufu",
+            "Ramses II",
+            "Tutankhamun",
+            "Cleopatra",
+            "Hatshepsut",
+            "Akhenaten",
+            "Thutmose I",
+            "Seti I",
+            "Djoser"
+        ],
+        "description": "Ramses II is the subject of Percy Bysshe Shelley's poem \"Ozymandias,\" which reflects on the impermanence of power and legacy."
+    },
+    {
+        "question": "Which god rules the underworld?",
+        "answer": "Osiris",
+        "options": [
+            "Osiris",
+            "Isis",
+            "Horus",
+            "Anubis",
+            "Ra",
+            "Set",
+            "Thoth",
+            "Bastet",
+            "Sekhmet",
+            "Nut"
+        ],
+        "description": "Osiris is the god of the afterlife and the underworld in ancient Egyptian mythology, often depicted as a mummified king."
+    },
+    {
+        "question": "Which god has the head of a falcon?",
+        "answer": "Horus",
+        "options": [
+            "Osiris",
+            "Isis",
+            "Horus",
+            "Anubis",
+            "Ra",
+            "Set",
+            "Thoth",
+            "Bastet",
+            "Sekhmet",
+            "Nut"
+        ],
+        "description": "Horus description"
+    },
+    {
+        "question": "Which god has the head of a jackal?",
+        "answer": "Anubis",
+        "options": [
+            "Osiris",
+            "Isis",
+            "Horus",
+            "Anubis",
+            "Ra",
+            "Set",
+            "Thoth",
+            "Bastet",
+            "Sekhmet",
+            "Nut"
+        ],
+        "description": "Anubis is the god of mummification and the afterlife, often depicted with the head of a jackal."
+    },
+    {
+        "question": "Which god is the sun god?",
+        "answer": "Ra",
+        "options": [
+            "Osiris",
+            "Isis",
+            "Horus",
+            "Anubis",
+            "Ra",
+            "Set",
+            "Thoth",
+            "Bastet",
+            "Sekhmet",
+            "Nut"
+        ],
+        "description": "Ra is the ancient Egyptian sun god, often depicted with a falcon head and a sun disk."
+    }, 
+    {
+        "question": "Which god is the god of chaos?",
+        "answer": "Set",
+        "options": [
+            "Osiris",
+            "Isis",
+            "Horus",
+            "Anubis",
+            "Ra",
+            "Set",
+            "Thoth",
+            "Bastet",
+            "Sekhmet",
+            "Nut"
+        ],
+        "description": "Set is the god of chaos, storms, and the desert in ancient Egyptian mythology, often depicted as a creature with a curved snout."
+    },
+    {
+        "question": "Which god invented hieroglyphics?",
+        "answer": "Thoth",
+        "options": [
+            "Osiris",
+            "Isis",
+            "Horus",
+            "Anubis",
+            "Ra",
+            "Set",
+            "Thoth",
+            "Bastet",
+            "Sekhmet",
+            "Nut"
+        ],
+        "description": "Thoth is the god of writing, knowledge, and wisdom in ancient Egyptian mythology, often depicted with the head of an ibis."
+    },
+    {
+        "question": "Which goddess is asssociated with the cat?",
+        "answer": "Bastet",
+        "options": [
+            "Osiris",
+            "Isis",
+            "Horus",
+            "Anubis",
+            "Ra",
+            "Set",
+            "Thoth",
+            "Bastet",
+            "Sekhmet",
+            "Nut"
+        ],
+        "description": "Bastet description"
+    },
+    {
+        "question": "Which goddess is the goddess of war?",
+        "answer": "Sekhmet",
+        "options": [
+            "Osiris",
+            "Isis",
+            "Horus",
+            "Anubis",
+            "Ra",
+            "Set",
+            "Thoth",
+            "Bastet",
+            "Sekhmet",
+            "Nut"
+        ],
+        "description": "Sekhmet is the goddess of war and healing in ancient Egyptian mythology."
+    },
+    {
+        "question": "Which goddess is the goddess of the sky?",
+        "answer": "Nut",
+        "options": [
+            "Osiris",
+            "Isis",
+            "Horus",
+            "Anubis",
+            "Ra",
+            "Set",
+            "Thoth",
+            "Bastet",
+            "Sekhmet",
+            "Nut"
+        ],
+        "description": "Nut is the goddess of the sky and the heavens in ancient Egyptian mythology."
+    },
+    {
+        "question": "Which goddess is the goddess of motherhood?",
+        "answer": "Isis",
+        "options": [
+            "Osiris",
+            "Isis",
+            "Horus",
+            "Anubis",
+            "Ra",
+            "Set",
+            "Thoth",
+            "Bastet",
+            "Sekhmet",
+            "Nut"
+        ],
+        "description": "Isis is the goddess of motherhood, magic, and fertility in ancient Egyptian mythology."
+    },
+    {
+        "question": "Who was the archaeologist who discovered King Tut's tomb?",
+        "answer": "Howard Carter",
+        "options": [
+            "Howard Carter",
+            "Zahi Hawass",
+            "Jean-François Champollion",
+            "Lord Carnarvon",
+            "Hiram Bingham",
+            "James Henry Breasted",
+            "Flinders Petrie",
+            "Gertrude Bell",
+            "William Flinders Petrie",
+            "Cecil Firth"
+        ],
+        "description": "Howard Carter discovered the tomb of Tutankhamun in 1922, which was one of the most significant archaeological finds in history."
+    },
+    {
+        "question": "Who was the first archaeologist to decipher hieroglyphics?",
+        "answer": "Jean-François Champollion",
+        "options": [
+            "Howard Carter",
+            "Jean-François Champollion",
+            "Lord Carnarvon",
+            "Hiram Bingham",
+            "James Henry Breasted",
+            "Flinders Petrie",
+            "Gertrude Bell",
+            "William Flinders Petrie",
+            "Cecil Firth"
+        ],
+        "description": "Jean-François Champollion was the first to decipher Egyptian hieroglyphs using the Rosetta Stone."
+    },
+    {
+        "question": "What are mummy wrappings made of?",
+        "answer": "Linen",
+        "options": [
+            "Linen",
+            "Paper", 
+            "Cotton",
+            "Papyrus"
+        ],
+        "description": "Mummies were wrapped in linen bandages to preserve the body for the afterlife."
+    },
+    {
+        "question": "What would ancient Egyptians put in canopic jars?",
+        "answer": "Organs",
+        "options": [
+            "Organs",
+            "Food",
+            "Water",
+            "Beer",
+            "Perfume",
+            "Makeup",
+            "Gold",
+            "Copper"
+        ],
+        "description": "Canopic jars were used to store and preserve the organs of the deceased for the afterlife."
+    }
+]

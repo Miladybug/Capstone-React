@@ -13,10 +13,9 @@ $met-sand: #e6df37;
 $met-terracotta: #c45c3e;
 $met-dark: #222222;
 
-
 $primary: $blue;
 $secondary: $met-gold;
-$danger: $red;
+// $danger: $red;
 $dark: $met-dark;
 // $light: $yellow;
 
@@ -159,6 +158,11 @@ nav > a {
   color: $light;
 }
 
-main {
-  margin-top: 4.5rem
+// main {
+//   margin-top: 4.5rem
+// }
+
+.quiz-options {
+  width: 20rem;
+  height: 5rem;
 }

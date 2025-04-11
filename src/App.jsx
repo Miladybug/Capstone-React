@@ -5,25 +5,8 @@ import Home from "./pages/Home"
 import CollectionSearch from './pages/CollectionSearch';
 import Galleries from './pages/Galleries';
 import Timeline from "./pages/Timeline";
-import Quizzes from "./pages/Quizzes";
-
-// TO DO - Beyond MVP
-// Create exhibits AND/OR exhibit-maker
-    // Each period
-    // Queens
-    // Textiles
-    // Mummies
-// Create quizzes & games
-    // Memory Card
-    // Hangman
-    // Cryptograms
-    // Snake
-// Display order / sort by
-
-// TO DO - Details
-// Better UI for search box
-// Standard card size
-// Drop-down period search
+import Games from './pages/Games';
+import Footer from './components/Footer';
 
 function App() {
     return (
@@ -35,9 +18,10 @@ function App() {
             <Route path="/collection" element={ <CollectionSearch /> } />
             <Route path="/galleries" element={ <Galleries /> } />
             <Route path="/timeline" element={ <Timeline /> } />
-            <Route path="/quizzes" element={ <Quizzes /> } />
+            <Route path="/games" element={ <Games /> } />
           </Routes>
         </main>
+        <Footer />
       </BrowserRouter>
     )
 }
