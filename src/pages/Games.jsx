@@ -3,10 +3,10 @@ import Quiz from "../components/games/Quiz";
 const Games = () => {
     return (
         <div className="games">
-            <h1>Games</h1>
-            <p>Explore our collection of games!</p>
+            {/* <h1>Games</h1>
+            <p>Explore our collection of games!</p> */}
             <Quiz />
-            <p>More games coming soon!</p>
+            {/* <p>More games coming soon!</p> */}
         </div>
     );
 }
@@ -23,7 +23,7 @@ export default Games;
     // Senet
     // Memory Card Game
 // Cryptograms with hieroglyphs
-// Hangman
+// Hangman - but mummification?
 // Crossword puzzle (with clues)
     // Sliding picture puzzle
 // Word search

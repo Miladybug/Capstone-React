@@ -15,7 +15,7 @@ const Home = () => {
                 <h2 className="text-primary text-center">Powerful Features</h2>
                 <div className="d-flex flex-wrap justify-content-around p-3">
                     <div className="card m-2 pb-0">
-                        <img className="card-img-top" src="src/assets/search_image.png" alt="" />
+                        <img className="card-img-top" src="https://images.metmuseum.org/CRDImages/eg/original/DP263833.jpg" alt="" />
                         <div className="card-body">
                             <h3 className="card-title">Advanced Search & Filters</h3>
                             <p className="cart-text">Find exactly what you're looking for with our enhanced filtering system</p>
@@ -31,7 +31,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="card m-2 pb-0 col-sm-12 col-md-6">
-                        <img className="card-img-top" src="src/assets/timeline_image.png" alt="" />
+                        <img className="card-img-top" src="https://images.metmuseum.org/CRDImages/eg/original/DP248749.jpg" alt="" />
                         <div className="card-body">
                             <h3 className="card-title">Visual Timeline</h3>
                             <p className="cart-text">Browse artifacts chronologically across Egyptian dynasties</p>
@@ -39,7 +39,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="card m-2 pb-0 col-sm-12 col-md-6">
-                        <img className="card-img-top" src="src/assets/no_image.png" alt="" />
+                        <img className="card-img-top" src="https://images.metmuseum.org/CRDImages/eg/original/LC-2021_41_143_EGDP032819.jpg" alt="" />
                         <div className="card-body">
                             <h3 className="card-title">Egyptian Knowledge Games</h3>
                             <p className="cart-text">Test your knowledge with our quizzes and minigames</p>
